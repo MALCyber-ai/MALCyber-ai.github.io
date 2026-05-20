@@ -16,5 +16,13 @@ Join the journey—new videos, code updates, and articles weekly.
 
 
 How the Internet Works Overall :
-https://youtube.com/shorts/ch9ZCtCE4io?feature=share
+<iframe
+  width="315"
+  height="560"
+  src="https://youtube.com/embed/ch9ZCtCE4io?feature=share"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
+
+[![How The Internet Works Overall](https://youtube.com/shorts/ch9ZCtCE4io?feature=share)
 
