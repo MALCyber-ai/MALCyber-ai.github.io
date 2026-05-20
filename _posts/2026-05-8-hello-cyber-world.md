@@ -13,3 +13,8 @@ Whether you’re a total beginner or just curious about how hackers work, I brea
 🛡️ The Goal: To give you the knowledge to stay safe online without needing a computer science degree.
 
 Join the journey—new videos, code updates, and articles weekly.
+
+
+How the Internet Works Overall :
+https://youtube.com/shorts/ch9ZCtCE4io?feature=share
+
