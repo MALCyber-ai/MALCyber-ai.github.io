@@ -23,6 +23,5 @@ How the Internet Works Overall :
   allowfullscreen>
 </iframe>
 
-[![How The Internet Works Overall](https://youtube.com/shorts/ch9ZCtCE4io?feature=share)
 
-// src="https://youtube.com/embed/ch9ZCtCE4io?feature=share"
+
