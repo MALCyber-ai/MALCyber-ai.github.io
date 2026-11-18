@@ -1,18 +1,21 @@
     <meta charset="utf-8" />
-    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0c1218" />
 
-    {% if page.excerpt %}
-    <meta name="description" content="{{ page.excerpt| strip_html }}" />
-    <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
+    {% if page.lede %}
+    <meta name="description" content="{{ page.lede | strip_html | escape }}" />
+    <meta property="og:description" content="{{ page.lede | strip_html | escape }}" />
+    {% elsif page.excerpt %}
+    <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | escape }}" />
+    <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | escape }}" />
     {% else %}
-    <meta name="description" content="{{ site.description }}">
-    <meta property="og:description" content="{{ site.description }}" />
+    <meta name="description" content="{{ site.description | escape }}" />
+    <meta property="og:description" content="{{ site.description | escape }}" />
     {% endif %}
-    <meta name="author" content="{{ site.name }}" />
+    <meta name="author" content="{{ site.name | escape }}" />
 
     {% if page.title %}
-    <meta property="og:title" content="{{ page.title }}" />
-    <meta property="twitter:title" content="{{ page.title }}" />
+    <meta property="og:title" content="{{ page.title | escape }}" />
+    {% else %}
+    <meta property="og:title" content="{{ site.name | escape }}" />
     {% endif %}
