@@ -1,28 +1,36 @@
-
 //
-// VARIABLES
+// Palette — one accent on a neutral dark ground.
 //
 
-// Colors
-$blue: #4183C4;
-$neonOrange: #FFA500; // Added neon orange
+$bg: #0c1218;
+$bg-raised: #121a23;
+$surface: #17202b;
+$surface-hover: #1c2734;
+$line: #2c3b4d;
+$line-strong: #3d5168;
 
-// Grays
-$black: #FFA500; // Black Background Color
-$darkerGray: #FFA500; // Orange neon for dark text
-$darkGray: #FFA500; // Neon orange for body text
-$gray: #FFA500; // Softer organge for secondary text
-$lightGray: #FFA500; // Dark grey for borders/background panels
-$white: #000000; // Neon orange for headers/main text
+$text: #e8eef6;
+$muted: #b7c5d6;
+$faint: #8ea0b5;
 
-// Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+$accent: #3dbea5;
+$accent-hover: #62d4be;
+$accent-ink: #04241c;
+$focus: #9aebda;
 
-// Mobile breakpoints
+$code-bg: #f4f7fb;
+$code-text: #1c2836;
+$code-line: #d5deea;
+
+$sans: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+$mono: ui-monospace, "SFMono-Regular", "Cascadia Code", "Segoe UI Mono", Menlo, Consolas, monospace;
+
+$max: 1060px;
+$measure: 42rem;
+$radius: 14px;
+
 @mixin mobile {
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 720px) {
     @content;
   }
 }

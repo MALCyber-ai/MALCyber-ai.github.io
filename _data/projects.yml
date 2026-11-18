@@ -1,0 +1,16 @@
+# Hands-on projects shown on /projects/ and linked from the homepage.
+# Add another project by copying a block. Tags are optional.
+#
+# - name: Project title
+#   description: One or two sentences on what you built and why it matters.
+#   url: https://github.com/MALCyber-ai/repo-name
+#   tags:
+#     - Linux
+#     - Networking
+
+- name: Setting Up Linux
+  description: Notes on preparing a Linux environment and opening a remote shell securely over SSH.
+  url: https://github.com/MALCyber-ai/LinuxProject
+  tags:
+    - Linux
+    - SSH
